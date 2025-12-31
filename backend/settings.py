@@ -135,3 +135,6 @@ REST_FRAMEWORK = {
     ],
 }
 
+# Prevent automatic trailing slash redirection for POST requests
+APPEND_SLASH = False
+
